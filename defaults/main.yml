@@ -8,9 +8,9 @@ authselect_user_nsswitch_conf_defaults:
   shadow: files sss
   group: sss files systemd
   hosts: files mdns4_minimal [NOTFOUND=return] dns myhostname
-  bootparams: files
+  # bootparams: files
   ethers: files
-  netmasks: files
+  # netmasks: files
   networks: files
   protocols: files
   rpc: files
