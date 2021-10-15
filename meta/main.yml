@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: smlloyd
   role_name: authselect
@@ -14,5 +15,6 @@ galaxy_info:
         - 31
         - 32
         - 34
+        - 35
   galaxy_tags: []
 dependencies: []
