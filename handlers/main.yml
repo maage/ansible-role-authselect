@@ -1,6 +1,6 @@
 ---
 - name: Update PAM with authselect
-  command:
+  ansible.builtin.command:
     argv: "{{ _argv }}"
   vars:
     _base_argv:
